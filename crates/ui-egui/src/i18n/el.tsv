@@ -1,7 +1,7 @@
 # Greek (el) PhotoCraft interface catalog.
 # Columns separated by TAB: context, English source, Greek translation.
 # Original translations based on general Greek graphics/computing terminology.
-# This is the first translation batch, not a complete catalog.
+# Covers every source label the i18n coverage check lists.
 	File	Αρχείο
 	Edit	Επεξεργασία
 	Image	Εικόνα
@@ -3212,3 +3212,72 @@ cameraRaw	Yellow	Κίτρινο
 	Quit {app}	Τερματισμός του {app}
 	Services	Υπηρεσίες
 	Hide Others	Απόκρυψη άλλων
+
+# Labels added on main since the first batch
+	100%	100%
+	180°	180°
+	200%	200%
+	3 x 3	3 x 3
+	3D LUT File	Αρχείο 3D LUT
+	4 x 4	4 x 4
+	5 x 5	5 x 5
+	Add to Swatches	Προσθήκη στα δείγματα χρωμάτων
+	Alt	Alt
+	Anamorphic 2:1 (2)	Αναμορφικό 2:1 (2)
+	ArtCraft	ArtCraft
+	Blend If:	Ανάμειξη υπό όρους:
+	Channels:	Κανάλια:
+	Click a red pupil to neutralize it	Κάντε κλικ σε μια κόκκινη κόρη για να την εξουδετερώσετε
+	Cmd	Cmd
+	Contents:	Περιεχόμενα:
+	Create new swatch	Δημιουργία νέου δείγματος χρώματος
+	Ctrl	Ctrl
+	Custom Pattern:	Προσαρμοσμένο μοτίβο:
+	D1/DV NTSC (0.91)	D1/DV NTSC (0.91)
+	D1/DV NTSC Widescreen (1.21)	D1/DV NTSC ευρεία οθόνη (1.21)
+	D1/DV PAL (1.09)	D1/DV PAL (1.09)
+	D1/DV PAL Widescreen (1.46)	D1/DV PAL ευρεία οθόνη (1.46)
+	DVCPRO HD 1080/HDV 1080 (1.5)	DVCPRO HD 1080/HDV 1080 (1.5)
+	Darken Amount	Ποσότητα σκουρέματος
+	Discord	Discord
+	Display P3	Display P3
+	Edit › Paste	Επεξεργασία › Επικόλληση
+	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	Οι αλλαγές που επηρεάζουν όλο το έγγραφο, όπως η λειτουργία ανάμειξης, η αδιαφάνεια ή η ορατότητα ενός επιπέδου, το επανασχεδιάζουν ολόκληρο.
+	Export Swatches for Exchange…	Εξαγωγή δειγμάτων χρωμάτων για ανταλλαγή…
+	Export Swatches…	Εξαγωγή δειγμάτων χρωμάτων…
+	Eyedropper	Σταγονόμετρο
+	Eyedroppers:	Σταγονόμετρα:
+	GPU	GPU
+	GitHub	GitHub
+	HDV 1080/DVCPRO HD 720 (1.33)	HDV 1080/DVCPRO HD 720 (1.33)
+	HSB/HSL	HSB/HSL
+	Import Swatches…	Εισαγωγή δειγμάτων χρωμάτων…
+	Impressionist	Ιμπρεσιονιστικό
+	Its layers don't fit the GPU memory budget. Raising Memory usage in Preferences › Performance raises the budget, up to a quarter of this computer's memory.	Τα επίπεδά του δεν χωρούν στο όριο μνήμης της GPU. Αυξάνοντας τη Χρήση μνήμης στις Προτιμήσεις › Επιδόσεις αυξάνεται το όριο, έως το ένα τέταρτο της μνήμης αυτού του υπολογιστή.
+	Knockout	Διάτρηση
+	Large document: redrawing on the CPU	Μεγάλο έγγραφο: επανασχεδίαση στη CPU
+	Median…	Διάμεσος…
+	Move	Μετακίνηση
+	New Swatch Group…	Νέα ομάδα δειγμάτων χρωμάτων…
+	New Swatch…	Νέο δείγμα χρώματος…
+	OpenType	OpenType
+	PhotoCraft	PhotoCraft
+	Pupil Size	Μέγεθος κόρης
+	Replace Swatches…	Αντικατάσταση δειγμάτων χρωμάτων…
+	Reset Swatches	Επαναφορά δειγμάτων χρωμάτων
+	Selection Preview:	Προεπισκόπηση επιλογής:
+	Set Black Point	Ορισμός μαύρου σημείου
+	Set Neutral Gray Point	Ορισμός σημείου ουδέτερου γκρι
+	Set White Point	Ορισμός λευκού σημείου
+	Shift	Shift
+	Show/Hide All Panels	Εμφάνιση/απόκρυψη όλων των πλαισίων
+	Show/Hide Panels	Εμφάνιση/απόκρυψη πλαισίων
+	The GPU compositor wasn't used: {reason}	Η σύνθεση μέσω GPU δεν χρησιμοποιήθηκε: {reason}
+	This redraw took {seconds} s on the CPU.	Αυτή η επανασχεδίαση διήρκεσε {seconds} s στη CPU.
+	Unavailable in this color mode	Μη διαθέσιμο σε αυτή τη χρωματική λειτουργία
+	Use File › Open, or paste a copied image with {paste}.	Χρησιμοποιήστε Αρχείο › Άνοιγμα ή επικολλήστε μια αντιγραμμένη εικόνα με {paste}.
+	Wave…	Κύμα…
+	open source	ανοιχτού κώδικα
+	{size} (was {old})	{size} (ήταν {old})
+	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
+	…and {n} more	…και {n} ακόμη
