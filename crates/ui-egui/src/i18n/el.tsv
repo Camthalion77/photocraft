@@ -215,11 +215,11 @@
 	Apply Layer Mask	Εφαρμογή μάσκας επιπέδου
 	Brush Preset picker	Επιλογή προεπιλογής πινέλου
 	Brush Reconstruct Options	Επιλογές πινέλου επαναφοράς
-	Brush Tool Options	Επιλογές Brush Tool
+	Brush Tool Options	Επιλογές πινέλου (Brush Tool)
 	Cancel current crop operation  (Esc)	Ακύρωση τρέχουσας περικοπής  (Esc)
 	Center Crop Marks	Κεντρικά σημάδια περικοπής
 	Check All Layers	Έλεγχος όλων των επιπέδων
-	Click with the Note tool to add a note.	Κάντε κλικ με το Note Tool για να προσθέσετε σημείωση.
+	Click with the Note tool to add a note.	Κάντε κλικ με το εργαλείο Σημείωση (Note Tool) για να προσθέσετε μια σημείωση.
 	Corner Crop Marks	Γωνιακά σημάδια περικοπής
 	Create new tool preset	Δημιουργία προεπιλογής εργαλείου
 	Crop Factor	Συντελεστής περικοπής
@@ -229,7 +229,7 @@
 	Delete Layers	Διαγραφή επιπέδων
 	Delete Tool Preset	Διαγραφή προεπιλογής εργαλείου
 	Delete tool preset	Διαγραφή προεπιλογής εργαλείου
-	Draw with the Pen tool (P) or make a work path from a selection.	Σχεδιάστε με το Pen Tool (P) ή δημιουργήστε μια διαδρομή εργασίας από μια επιλογή.
+	Draw with the Pen tool (P) or make a work path from a selection.	Σχεδιάστε με το εργαλείο Πένα (Pen Tool) (P) ή δημιουργήστε μια διαδρομή εργασίας από μια επιλογή.
 	Duplicate Layers…	Δημιουργία αντιγράφων επιπέδων…
 	Edit Toolbar…	Προσαρμογή γραμμής εργαλείων…
 	Edit in Quick Mask Mode  (Q)	Επεξεργασία σε λειτουργία γρήγορης μάσκας  (Q)
@@ -1015,7 +1015,7 @@
 	Add to selection  (⇧)	Προσθήκη στην επιλογή  (⇧)
 	Click to zoom in  ·  ⌥-click to zoom out	Κλικ για μεγέθυνση · ⌥-κλικ για σμίκρυνση
 	Commit Perspective Warp (↩)	Εφαρμογή παραμόρφωσης προοπτικής (↩)
-	Commit Puppet Warp (↩)	Εφαρμογή παραμόρφωσης Puppet Warp (↩)
+	Commit Puppet Warp (↩)	Εφαρμογή παραμόρφωσης μαριονέτας (↩)
 	Commit any current edits (⌘↩)	Εφαρμογή τρεχουσών αλλαγών (⌘↩)
 	Commit current crop operation  (↵)	Εφαρμογή περικοπής  (↵)
 	Commit transform (↩)	Εφαρμογή μετασχηματισμού (↩)
@@ -1395,7 +1395,7 @@
 	Table	Πίνακας
 	Name (A–Z)	Όνομα (Α–Ω)
 	Merged PRs	Συγχωνευμένα αιτήματα ενσωμάτωσης
-	Commits	Commits
+	Commits	Υποβολές κώδικα
 	Lines added	Γραμμές που προστέθηκαν
 	Lines deleted	Γραμμές που διαγράφηκαν
 	Line delta	Καθαρή μεταβολή γραμμών
@@ -1415,7 +1415,7 @@
 	System title bar	Γραμμή τίτλου συστήματος
 	More documents	Περισσότερα έγγραφα
 	Developing {name}	Επεξεργασία του {name}
-	Camera Raw ({name})	Camera Raw ({name})
+	Camera Raw ({name})	Επεξεργασία RAW ({name})
 	New Brush Preset…	Νέα προεπιλογή πινέλου…
 	Brush Preset Options	Επιλογές προεπιλογής πινέλου
 	Show font names in english	Εμφάνιση ονομάτων γραμματοσειρών στα αγγλικά
@@ -1517,7 +1517,7 @@
 	GPU backend	Σύστημα απόδοσης GPU
 	Use tablet pressure	Χρήση πίεσης γραφίδας
 	Alt-click to define a source point to clone from	Alt-κλικ για ορισμό σημείου προέλευσης κλωνοποίησης
-	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	Δεν υπάρχει διαδρομή για δημιουργία επιλογής: σχεδιάστε μία με το Pen Tool ή επιλέξτε μία στο πλαίσιο Διαδρομές.
+	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	Δεν υπάρχει διαδρομή για δημιουργία επιλογής: σχεδιάστε μία με το εργαλείο Πένα (Pen Tool) ή επιλέξτε μία στο πλαίσιο Διαδρομές.
 	Cancel opening	Ακύρωση ανοίγματος
 	Cancelled opening {name}	Ακυρώθηκε το άνοιγμα του {name}
 	Cancelled {label}	Ακυρώθηκε: {label}
@@ -1864,10 +1864,1346 @@
 	Tone Histogram	Ιστόγραμμα τόνων
 	Vignetting	Βινιετάρισμα
 	White Balance: As Shot	Ισορροπία λευκού: όπως στη λήψη
-	Mixer Brush	Mixer Brush (Πινέλο ανάμειξης)
-	Mixer Brush Tool	Mixer Brush Tool (Πινέλο ανάμειξης)
+	Mixer Brush	Πινέλο ανάμειξης (Mixer Brush)
+	Mixer Brush Tool	Πινέλο ανάμειξης (Mixer Brush Tool)
 	Wet	Υγρασία
 	Load	Φόρτωση
 	Mix	Ανάμειξη
 	8 bit	8 bit ανά κανάλι
 	16 bit	16 bit ανά κανάλι
+
+# Greek full-localization recovery additions
+	(print to the printer)	(εκτύπωση στον εκτυπωτή)
+	+ Add variable	+ Προσθήκη μεταβλητής
+	2-up Horizontal	Δύο οριζόντια
+	2-up Vertical	Δύο κατακόρυφα
+	3-up Horizontal	Τρία οριζόντια
+	3-up Stacked	Τρία σε στοίβα
+	3-up Vertical	Τρία κατακόρυφα
+	30 frames @ 30 fps	30 καρέ στα 30 fps
+	32-bit Preview Options…	Επιλογές προεπισκόπησης 32 bit…
+	3D…	Τρισδιάστατα…
+	4-up	Τέσσερα παράθυρα
+	6-up	Έξι παράθυρα
+	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} commits, +{added} / −{deleted} γραμμές (Δ {delta}), +{binAdded} / −{binDeleted} δυαδικά αρχεία, {first} – {last}
+	AI Integrations	Ενσωματώσεις τεχνητής νοημοσύνης
+	Absolute	Απόλυτο
+	Absolute Colorimetric	Απόλυτη χρωματομετρική απόδοση
+	Action	Ενέργεια
+	Adaptive	Προσαρμοστικό
+	Adaptive Wide Angle	Προσαρμοστική ευρεία γωνία
+	Adaptive Wide Angle isn't open	Η προσαρμοστική διόρθωση ευρυγώνιου δεν είναι ανοιχτή
+	Adaptive Wide Angle…	Προσαρμοστική ευρεία γωνία…
+	Add Noise	Προσθήκη θορύβου
+	Add Noise…	Προσθήκη θορύβου…
+	Add Pins	Προσθήκη καρφιτσών
+	Add Stop	Προσθήκη σημείου διαβάθμισης
+	Add a layer style	Προσθήκη στυλ επιπέδου
+	Add a mask  (from the selection; {key} inverts)	Προσθήκη μάσκας (από την επιλογή· το {key} αντιστρέφει)
+	Add a mask  (from the selection; ⌥ inverts)	Προσθήκη μάσκας (από την επιλογή· ⌥ για αντιστροφή)
+	Add an adjustment	Προσθήκη προσαρμογής
+	Add disk	Προσθήκη δίσκου
+	Add space after paragraph	Προσθήκη διαστήματος μετά την παράγραφο
+	Add space before paragraph	Προσθήκη διαστήματος πριν από την παράγραφο
+	Add to Sample	Προσθήκη στο δείγμα
+	Add to selection  ({key})	Προσθήκη στην επιλογή ({key})
+	Adds grain to the soft edges of the brush tip.	Προσθέτει κόκκο στις απαλές άκρες του πινέλου.
+	Adjust for Zoom	Προσαρμογή στη μεγέθυνση
+	Adjustment visible	Η προσαρμογή είναι ορατή
+	Adobe PDF Presets…	Προεπιλογές Adobe PDF…
+	Adobe RGB (1998) compatible	Συμβατό με Adobe RGB (1998)
+	Advanced Blending	Σύνθετες επιλογές ανάμειξης
+	After (X)	Μετά (X)
+	Airbrush: keeps painting while the pointer rests.	Αερογράφος: συνεχίζει να εφαρμόζει χρώμα όσο ο δείκτης παραμένει ακίνητος.
+	Align and Distribute	Στοίχιση και κατανομή
+	Align and distribute	Στοίχιση και κατανομή
+	Align horizontal centers	Στοίχιση οριζόντιων κέντρων
+	Align left edges	Στοίχιση αριστερών άκρων
+	Align right edges	Στοίχιση δεξιών άκρων
+	Align {what}	Στοίχιση {what}
+	Aligned	Στοιχισμένο
+	All Caps	Όλα κεφαλαία
+	All Slices	Όλες οι τομές
+	All User Slices	Όλες οι τομές χρήστη
+	All shortcuts reset to Photoshop defaults.	Όλες οι συντομεύσεις επανήλθαν στις προεπιλογές του Photoshop.
+	Alternates for Current Selection	Εναλλακτικοί χαρακτήρες για την τρέχουσα επιλογή
+	Altitude	Υψόμετρο
+	Always	Πάντα
+	Always use pressure for size	Πάντα χρήση πίεσης για το μέγεθος
+	Anchor:	Αγκύρωση:
+	Angle Gradient	Γωνιακή διαβάθμιση
+	Angle Jitter	Διακύμανση γωνίας
+	Angle:	Γωνία:
+	Answer the unsaved-changes prompt first	Απαντήστε πρώτα στο μήνυμα για μη αποθηκευμένες αλλαγές
+	Appearance (Layer Style)	Εμφάνιση (στυλ επιπέδου)
+	Applies at next launch.	Εφαρμόζεται στην επόμενη εκκίνηση.
+	Apply Data Set	Εφαρμογή συνόλου δεδομένων
+	Apply Image	Εφαρμογή εικόνας
+	Apply Per Tip	Εφαρμογή ανά άκρη πινέλου
+	Apply next selected layer comp	Εφαρμογή επόμενης επιλεγμένης σύνθεσης επιπέδων
+	Apply previous selected layer comp	Εφαρμογή προηγούμενης επιλεγμένης σύνθεσης επιπέδων
+	Arbitrary	Προσαρμοσμένο
+	Arc	Τόξο
+	Arch	Καμάρα
+	Art & Illustration	Τέχνη και εικονογράφηση
+	ArtCraft Website	Ιστότοπος ArtCraft
+	Artboard Background Color	Χρώμα φόντου πίνακα σχεδίασης
+	Artboard Guides	Οδηγοί πίνακα σχεδίασης
+	Artboard from Group	Πίνακας σχεδίασης από ομάδα
+	Artboard from Layers	Πίνακας σχεδίασης από επίπεδα
+	Artboards to Files	Πίνακες σχεδίασης σε αρχεία
+	Artboards to PDF	Πίνακες σχεδίασης σε PDF
+	Artist	Καλλιτέχνης
+	Ask	Ερώτηση
+	Ask Before Saving Saved Embedded	Ερώτηση πριν από την αποθήκευση ενσωματωμένων προφίλ
+	Assign Profile	Αντιστοίχιση προφίλ
+	Assign working space	Αντιστοίχιση χρωματικού χώρου εργασίας
+	At	Στο
+	Audio	Ήχος
+	Author:	Δημιουργός:
+	Auto Hide	Αυτόματη απόκρυψη
+	Auto-Align Layers	Αυτόματη στοίχιση επιπέδων
+	Auto-Blend Layers	Αυτόματη ανάμειξη επιπέδων
+	Auto-Hide	Αυτόματη απόκρυψη
+	Auto-Select:	Αυτόματη επιλογή:
+	Auto-leading %	Αυτόματο διάστιχο %
+	Automatically level near-horizontal line segments	Αυτόματη ευθυγράμμιση σχεδόν οριζόντιων τμημάτων
+	Automatically straighten and level	Αυτόματη διόρθωση κλίσης και ευθυγράμμιση
+	Automatically straighten near-vertical line segments	Αυτόματη ευθυγράμμιση σχεδόν κατακόρυφων τμημάτων
+	Average	Μέσος όρος
+	Avoid Widows/Orphans	Αποφυγή μονών γραμμών στην αρχή ή στο τέλος σελίδας
+	BLANK DOCUMENT PRESETS ({n})	ΠΡΟΕΠΙΛΟΓΕΣ ΚΕΝΟΥ ΕΓΓΡΑΦΟΥ ({n})
+	Background Contents	Περιεχόμενα φόντου
+	Background from Layer	Φόντο από επίπεδο
+	Baseline	Γραμμή βάσης
+	Baseline shift	Μετατόπιση γραμμής βάσης
+	Basic	Βασικό
+	Batch	Μαζική επεξεργασία
+	Begin recording	Έναρξη εγγραφής
+	Bend:	Καμπυλότητα:
+	Bicubic	Δικυβικό
+	Bicubic (smooth gradients)	Δικυβική (ομαλές διαβαθμίσεις)
+	Bilinear	Διγραμμική
+	Black Point Compensation	Αντιστάθμιση μαύρου σημείου
+	Black, White	Μαύρο, λευκό
+	Blend	Ανάμειξη
+	Blend If	Ανάμειξη υπό όρους
+	Blending Options	Επιλογές ανάμειξης
+	Blue, Red, Yellow	Μπλε, κόκκινο, κίτρινο
+	Blues	Μπλε αποχρώσεις
+	Bold	Έντονα
+	Bold Italic	Έντονα πλάγια
+	Border	Περίγραμμα
+	Border…	Περίγραμμα…
+	Both	Και τα δύο
+	Both Axes	Και οι δύο άξονες
+	Box Blur	Θόλωση πλαισίου
+	Box Blur…	Θόλωση πλαισίου…
+	Brightness Jitter	Διακύμανση φωτεινότητας
+	Bring the selected pin forward	Μεταφορά επιλεγμένης καρφίτσας εμπρός
+	Brush Pose	Στάση πινέλου
+	Brush Tip Shape	Σχήμα άκρης πινέλου
+	Brush picker	Επιλογέας πινέλου
+	Build-up	Συσσώρευση
+	Bulge	Κυρτότητα
+	Cache Level:	Επίπεδο προσωρινής μνήμης:
+	Calculations	Υπολογισμοί
+	Camera Raw	Επεξεργασία ακατέργαστης εικόνας
+	Camera Raw Filter	Φίλτρο επεξεργασίας ακατέργαστης εικόνας
+	Camera Raw Filter…	Φίλτρο επεξεργασίας ακατέργαστης εικόνας…
+	Camera Raw…	Επεξεργασία ακατέργαστης εικόνας…
+	Cancel (Esc)	Ακύρωση (Esc)
+	Cancel any current edits (Esc)	Ακύρωση τρεχουσών αλλαγών (Esc)
+	Cancel transform (Esc)	Ακύρωση μετασχηματισμού (Esc)
+	Cancel warp (Esc)	Ακύρωση παραμόρφωσης (Esc)
+	Canvas Guides	Οδηγοί καμβά
+	Canvas extension color:	Χρώμα επέκτασης καμβά:
+	Canvas rotation	Περιστροφή καμβά
+	Capture	Καταγραφή
+	Capture the visibility, position and style of every layer with + below, then switch between versions.	Καταγράψτε την ορατότητα, τη θέση και το στυλ κάθε επιπέδου με το + παρακάτω και έπειτα εναλλάξτε εκδόσεις.
+	Cascade	Διαδοχική διάταξη
+	Catch-up on Stroke End	Ολοκλήρωση πινελιάς κατά την απελευθέρωση
+	Center text	Κεντράρισμα κειμένου
+	Centimeters	Εκατοστά
+	Chalk & Charcoal	Κιμωλία και κάρβουνο
+	Change	Αλλαγή
+	Change All	Αλλαγή όλων
+	Change Screen Mode  (F)	Αλλαγή λειτουργίας οθόνης  (F)
+	Change To:	Αλλαγή σε:
+	Channel1	Κανάλι 1
+	Channel2	Κανάλι 2
+	Channel3	Κανάλι 3
+	Channel4	Κανάλι 4
+	Channel:	Κανάλι:
+	Character Styles	Στυλ χαρακτήρων
+	Charcoal	Κάρβουνο
+	Check Spelling	Ορθογραφικός έλεγχος
+	Choke	Συστολή
+	Chrome	Χρώμιο
+	Classic	Κλασικό
+	Classic Theme	Κλασικό θέμα
+	Clear Canvas Guides	Απαλοιφή οδηγών καμβά
+	Clear Override	Απαλοιφή παράκαμψης
+	Clear Samples	Απαλοιφή δειγμάτων
+	Clear Selected Artboard Guides	Απαλοιφή επιλεγμένων οδηγών πίνακα σχεδίασης
+	Clear Slices	Απαλοιφή τομών
+	Click sets foreground · right-click sets background	Το κλικ ορίζει το χρώμα προσκηνίου · το δεξί κλικ το χρώμα φόντου
+	Click the first point or press {key} to close · Esc cancels	Κάντε κλικ στο πρώτο σημείο ή πατήστε {key} για κλείσιμο · Esc για ακύρωση
+	Click to add a point · drag off or {key}-click or Delete to remove	Κλικ για προσθήκη σημείου · σύρσιμο προς τα έξω ή {key}-κλικ ή Delete για αφαίρεση
+	Click to add text	Κάντε κλικ για προσθήκη κειμένου
+	Click to apply, {key}-click to clear overrides, double-click for Style Options	Κλικ για εφαρμογή, {key}-κλικ για απαλοιφή αλλαγών, διπλό κλικ για επιλογές στυλ
+	Click to edit the gradient	Κάντε κλικ για επεξεργασία της διαβάθμισης
+	Click to fill similar colours	Κάντε κλικ για γέμισμα παρόμοιων χρωμάτων
+	Click to restore the current colour	Κάντε κλικ για επαναφορά του τρέχοντος χρώματος
+	Click to sample the foreground colour  ·  {key}-click for background	Κλικ για δειγματοληψία χρώματος προσκηνίου · {key}-κλικ για φόντο
+	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	Κλικ για μεγέθυνση · {key}-κλικ για σμίκρυνση · σύρσιμο δεξιά/αριστερά για αλλαγή μεγέθυνσης
+	Click: corner · Drag: smooth · Click first point: close · {key} finish · Esc cancel	Κλικ: γωνία · Σύρσιμο: εξομάλυνση · Κλικ στο πρώτο σημείο: κλείσιμο · {key}: τέλος · Esc: ακύρωση
+	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	Κλικ: επιλογή σημείου αγκύρωσης · Σύρσιμο: μετακίνηση σημείου, λαβής ή τμήματος · {shift}-κλικ: προσθήκη · {alt}-κλικ: ολόκληρη υποδιαδρομή
+	Clip to layer below	Περικοπή στο υποκείμενο επίπεδο
+	Clipped	Περικομμένο
+	Clipping Path	Διαδρομή αποκοπής
+	Clone	Κλωνοποίηση
+	Clone Source	Πηγή κλωνοποίησης
+	Clone source {n} ({key}-click with Clone Stamp to set)	Πηγή κλωνοποίησης {n} ({key}-κλικ με Clone Stamp για ορισμό)
+	Close Style Options	Κλείσιμο επιλογών στυλ
+	Clouds	Σύννεφα
+	Coated CMYK	CMYK για επιχρισμένο χαρτί
+	Collapse	Σύμπτυξη
+	Collapse group  ({key}-click: all groups)	Σύμπτυξη ομάδας  ({key}-κλικ: όλες οι ομάδες)
+	Color & Swatches	Χρώμα και δείγματα
+	Color Blindness — Deuteranopia-type	Αχρωματοψία — τύπος δευτερανωπίας
+	Color Blindness — Protanopia-type	Αχρωματοψία — τύπος πρωτανωπίας
+	Color Decontaminate	Απομάκρυνση χρωματικής επιμόλυνσης
+	Color Dynamics	Δυναμική χρώματος
+	Color Halftone	Χρωματικός ημιτονισμός
+	Color Halftone…	Χρωματικός ημιτονισμός…
+	Color Lookup Tables	Πίνακες αντιστοίχισης χρωμάτων
+	Color Management	Διαχείριση χρωμάτων
+	Color Range preview	Προεπισκόπηση εύρους χρωμάτων
+	Color Range…	Εύρος χρωμάτων…
+	Color Settings	Ρυθμίσεις χρωμάτων
+	Color Table	Πίνακας χρωμάτων
+	Color:	Χρώμα:
+	Colorize	Χρωματισμός
+	Comic Book	Κόμικ
+	Command	Εντολή
+	Commit Perspective Warp ({key})	Εφαρμογή μετασχηματισμού προοπτικής ({key})
+	Commit Puppet Warp ({key})	Εφαρμογή παραμόρφωσης μαριονέτας ({key})
+	Commit any current edits ({key})	Εφαρμογή τρεχουσών αλλαγών ({key})
+	Commit current crop operation  ({key})	Εφαρμογή τρέχουσας περικοπής ({key})
+	Commit transform ({key})	Εφαρμογή μετασχηματισμού ({key})
+	Commit warp ({key})	Εφαρμογή παραμόρφωσης ({key})
+	Compose	Σύνθεση
+	Condensed	Στενή γραφή
+	Conditional Mode Change	Αλλαγή λειτουργίας υπό συνθήκη
+	Conform	Προσαρμογή
+	Consolidate All to Tabs	Συγκέντρωση όλων σε καρτέλες
+	Constant	Σταθερό
+	Constrain proportions	Περιορισμός αναλογιών
+	Constraints ({n})	Περιορισμοί ({n})
+	Contact Sheet II	Φύλλο επαφής II
+	Content-Aware	Με επίγνωση περιεχομένου
+	Content-Aware Fill	Γέμισμα με επίγνωση περιεχομένου
+	Content-Aware Fill needs a selection on a pixel layer	Το γέμισμα βάσει περιεχομένου απαιτεί επιλογή σε επίπεδο εικονοστοιχείων
+	Contextual Alternates	Εναλλακτικοί χαρακτήρες βάσει συμφραζομένων
+	Contract…	Συστολή…
+	Control:	Χειριστήριο:
+	Conté Crayon	Μολύβι κοντέ
+	Convert Frames > Video Layers	Μετατροπή καρέ > Επίπεδα βίντεο
+	Convert document's colors to the working space	Μετατροπή των χρωμάτων του εγγράφου στον χώρο εργασίας
+	Convert to Linked	Μετατροπή σε συνδεδεμένο
+	Convert to Paragraph Text	Μετατροπή σε κείμενο παραγράφου
+	Convert to Point Text	Μετατροπή σε κείμενο σημείου
+	Convert to Profile	Μετατροπή σε προφίλ
+	Convert to Shape	Μετατροπή σε σχήμα
+	Convert to sRGB	Μετατροπή σε sRGB
+	Copies	Αντίγραφα
+	Copper	Χάλκινο
+	Copyright	Πνευματικά δικαιώματα
+	Copyright and Contact Info	Πνευματικά δικαιώματα και στοιχεία επικοινωνίας
+	Corner radius	Ακτίνα γωνίας
+	Correction	Διόρθωση
+	Could not transform: the layer is empty	Αδυναμία μετασχηματισμού: το επίπεδο είναι κενό
+	Could not use Perspective Warp: the layer is empty	Αδυναμία χρήσης Perspective Warp: το επίπεδο είναι κενό
+	Could not use Puppet Warp: no opaque pixels	Αδυναμία χρήσης Puppet Warp: δεν υπάρχουν αδιαφανή εικονοστοιχεία
+	Could not use Puppet Warp: the layer is empty	Αδυναμία χρήσης Puppet Warp: το επίπεδο είναι κενό
+	Couldn't place {name}: {error}	Δεν ήταν δυνατή η τοποθέτηση του {name}: {error}
+	Count	Καταμέτρηση
+	Count Jitter	Διακύμανση πλήθους
+	Count: {n}	Πλήθος: {n}
+	Create Date	Ημερομηνία δημιουργίας
+	Create Droplet	Δημιουργία εκτελέσιμης μικροεφαρμογής
+	Create Plane	Δημιουργία επιπέδου προοπτικής
+	Create Texture	Δημιουργία υφής
+	Create Video Timeline	Δημιουργία χρονογραμμής βίντεο
+	Create Work Path	Δημιουργία διαδρομής εργασίας
+	Create a new count group	Δημιουργία νέας ομάδας καταμέτρησης
+	Create new layer	Δημιουργία νέου επιπέδου
+	Create new set	Δημιουργία νέου συνόλου
+	Crisp	Καθαρό
+	Crosswise	Εγκάρσια
+	Crystallize	Κρυσταλλοποίηση
+	Crystallize…	Κρυσταλλοποίηση…
+	Current Path	Τρέχουσα διαδρομή
+	Custom Pixel Aspect Ratio…	Προσαρμοσμένη αναλογία εικονοστοιχείων…
+	Cyan  ·  Red	Κυανό  ·  κόκκινο
+	Cyans	Κυανές αποχρώσεις
+	Cycle Screen Mode	Εναλλαγή λειτουργίας οθόνης
+	Darker Color	Πιο σκούρο χρώμα
+	Data	Δεδομένα
+	Data Sets	Σύνολα δεδομένων
+	Data Sets as Files	Σύνολα δεδομένων ως αρχεία
+	DateTime Original	Αρχική ημερομηνία και ώρα
+	De-Interlace	Αποδιαπλοκή
+	De-Interlace…	Αποδιαπλοκή…
+	Default Features	Προεπιλεγμένες δυνατότητες
+	Defaults restored.	Οι προεπιλογές επαναφέρθηκαν.
+	Define	Ορισμός
+	Define Brush Preset	Ορισμός προεπιλογής πινέλου
+	Define Custom Shape	Ορισμός προσαρμοσμένου σχήματος
+	Define Pattern	Ορισμός μοτίβου
+	Defringe	Αφαίρεση χρωματικού περιγράμματος
+	Delete Path	Διαγραφή διαδρομής
+	Delete Pins	Διαγραφή καρφιτσών
+	Delete Workspace	Διαγραφή χώρου εργασίας
+	Delete Workspace…	Διαγραφή χώρου εργασίας…
+	Delete layer	Διαγραφή επιπέδου
+	Density:	Πυκνότητα:
+	Depth	Βάθος
+	Despeckle	Αφαίρεση στιγμάτων
+	Diamond	Ρόμβος
+	Difference Clouds	Σύννεφα διαφοράς
+	Diffuse	Διάχυση
+	Diffuse Glow	Διάχυτη λάμψη
+	Diffuse…	Διάχυση…
+	Diffusion	Διάχυση
+	Digits	Ψηφία
+	Dimensions:	Διαστάσεις:
+	Direction	Κατεύθυνση
+	Discretionary Ligatures	Προαιρετικά συμπλέγματα χαρακτήρων
+	Displace	Μετατόπιση
+	Displace…	Μετατόπιση…
+	Dither	Πρόσθεση θορύβου διαβάθμισης
+	Divide…	Διαίρεση…
+	Do you want to save the changes you made to “{name}” before closing?	Θέλετε να αποθηκεύσετε τις αλλαγές στο «{name}» πριν από το κλείσιμο;
+	Do you want to save the changes you made to “{name}” before quitting?	Θέλετε να αποθηκεύσετε τις αλλαγές στο «{name}» πριν από την έξοδο;
+	Do you want to save you made to “{name}” before quitting?	Θέλετε να αποθηκεύσετε τις αλλαγές στο «{name}» πριν από την έξοδο;
+	Doc: {flat}/{layered}	Έγγραφο: {flat}/{layered}
+	Doc: {w} × {h} px	Έγγραφο: {w} × {h} px
+	Document Bounds	Όρια εγγράφου
+	Document Dimensions	Διαστάσεις εγγράφου
+	Document Profile	Προφίλ εγγράφου
+	Document Sizes	Μεγέθη εγγράφου
+	Dodge/Burn	Φωτισμός/Σκοτείνιασμα (Dodge/Burn)
+	Dots	Κουκκίδες
+	Down	Κάτω
+	Drag (lasso) or click points (polygonal) · {add} add · {sub} subtract	Σύρετε για λάσο ή κάντε κλικ για πολυγωνική επιλογή · {add} προσθήκη · {sub} αφαίρεση
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · {commit} commits · Esc cancels	Σύρετε για περιοχή περικοπής · σύρετε στο εσωτερικό για μετακίνηση · από τα άκρα αλλάζει μέγεθος ({ratio} αναλογία, {centre} κέντρο) · Space για μετακίνηση κατά τη σχεδίαση · {commit} εφαρμογή · Esc ακύρωση
+	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click to delete.	Σύρετε πάνω στην εικόνα για προσθήκη περιορισμού· Shift για οριζόντιο/κατακόρυφο· δεξί κλικ για διαγραφή.
+	Drag or click polygon points · hold Alt during lasso for straight segments · {add} add · {sub} before drawing subtracts	Σύρετε ή κάντε κλικ για πολυγωνικά σημεία · κρατήστε Alt κατά το λάσο για ευθείες · {add} προσθήκη · {sub} αφαίρεση πριν από τη σχεδίαση
+	Drag to draw a gradient	Σύρετε για να σχεδιάσετε διαβάθμιση
+	Drag to move the active layer	Σύρετε για μετακίνηση του ενεργού επιπέδου
+	Drag to move the active shape's path or the Work Path	Σύρετε για μετακίνηση της διαδρομής του ενεργού σχήματος ή της διαδρομής εργασίας
+	Dual Brush	Διπλό πινέλο
+	Duplicate Path	Διπλασιασμός διαδρομής
+	Duplicate style	Διπλασιασμός στυλ
+	Dust & Scratches	Σκόνη και γρατζουνιές
+	Dust & Scratches…	Σκόνη και γρατζουνιές…
+	Dynamics	Δυναμική
+	East Asian Features	Δυνατότητες ανατολικοασιατικών γλωσσών
+	East asian	Ανατολική Ασία
+	Edge	Ακμή
+	Edit Pins	Επεξεργασία σημείων αγκύρωσης
+	Edit Plane	Επεξεργασία επιπέδου προοπτικής
+	Edit Type	Τύπος επεξεργασίας
+	Edit in Standard Mode  (Q)	Επεξεργασία σε κανονική λειτουργία  (Q)
+	Efficiency	Αποδοτικότητα
+	Efficiency: 100%	Αποδοτικότητα: 100%
+	Embed Color Profile	Ενσωμάτωση χρωματικού προφίλ
+	Embedded Profile Mismatch	Ασυμφωνία ενσωματωμένου προφίλ
+	Emboss	Ανάγλυφο
+	Emboss…	Ανάγλυφο…
+	Enhance Edge	Βελτίωση ακμών
+	Entire Font	Ολόκληρη γραμματοσειρά
+	Erase	Διαγραφή
+	Essentials	Βασικά
+	Exact	Ακριβές
+	Expand group  ({key}-click: all groups)	Ανάπτυξη ομάδας  ({key}-κλικ: όλες οι ομάδες)
+	Expand…	Επέκταση…
+	Expansion:	Επέκταση:
+	Export Contents	Εξαγωγή περιεχομένων
+	Export Preferences	Εξαγωγή προτιμήσεων
+	Export Presets	Εξαγωγή προεπιλογών
+	Export selected measurements (CSV)	Εξαγωγή επιλεγμένων μετρήσεων (CSV)
+	Export/Import Presets	Εξαγωγή/εισαγωγή προεπιλογών
+	Exposure and Gamma	Έκθεση και γάμμα
+	Exposure:	Έκθεση:
+	Extend	Επέκταση
+	Extensions	Επεκτάσεις
+	Extra Large	Πολύ μεγάλο
+	ExtraBold	Πολύ έντονα
+	ExtraLight	Πολύ λεπτά
+	Extras	Πρόσθετα στοιχεία
+	Extrude	Εξώθηση
+	Extrude…	Εξώθηση…
+	Facet	Πολυγωνική όψη
+	Factor:	Συντελεστής:
+	Fade	Σταδιακή εξασθένηση
+	Fade steps	Βήματα εξασθένησης
+	Faux Bold	Τεχνητή έντονη γραφή
+	Faux Italic	Τεχνητή πλάγια γραφή
+	Fewer Points	Λιγότερα σημεία
+	Fibers	Ίνες
+	Fibers…	Ίνες…
+	Field Blur	Θόλωση πεδίου
+	Field Blur…	Θόλωση πεδίου…
+	File Info	Πληροφορίες αρχείου
+	File Settings	Ρυθμίσεις αρχείου
+	Fill Path	Γέμισμα διαδρομής
+	Fill Screen	Γέμισμα οθόνης
+	Fill:	Γέμισμα:
+	Film & Video	Φιλμ και βίντεο
+	Filter Gallery	Συλλογή φίλτρων
+	Filter Gallery…	Συλλογή φίλτρων…
+	Filter for smart objects	Φίλτρο για έξυπνα αντικείμενα
+	Filter:	Φίλτρο:
+	Find Edges	Εντοπισμός ακμών
+	Find and Replace Text	Εύρεση και αντικατάσταση κειμένου
+	Finger Painting	Ζωγραφική με το δάχτυλο
+	First Line Indent	Εσοχή πρώτης γραμμής
+	Fish	Ψάρι
+	Fisheye	Εφέ ψαροματιού
+	Fit	Προσαρμογή
+	Fit Artboard on Screen	Προσαρμογή πίνακα σχεδίασης στην οθόνη
+	Fit Image	Προσαρμογή εικόνας
+	Fit Layer(s) on Screen	Προσαρμογή επιπέδων στην οθόνη
+	Fit Screen	Προσαρμογή στην οθόνη
+	Fit in View	Προσαρμογή στην προβολή
+	Fixed	Σταθερό
+	Fixed Ratio	Σταθερή αναλογία
+	Fixed Size	Σταθερό μέγεθος
+	Flag	Σημαία
+	Flame	Φλόγα
+	Flame…	Φλόγα…
+	Flatten Frames Into Clips	Συγχώνευση καρέ σε κλιπ
+	Flatten Frames Into Layers	Μετατροπή καρέ σε επίπεδα
+	Flip	Αναστροφή
+	Flip X	Αναστροφή X
+	Flip X Jitter	Διακύμανση αναστροφής X
+	Flip Y	Αναστροφή Y
+	Flip Y Jitter	Διακύμανση αναστροφής Y
+	Float All in Windows	Άνοιγμα όλων σε ανεξάρτητα παράθυρα
+	Float in Window	Μετατροπή σε ανεξάρτητο παράθυρο
+	Flow Jitter	Διακύμανση ροής
+	Focal Length	Εστιακή απόσταση
+	Focus Area	Περιοχή εστίασης
+	Focus Area…	Περιοχή εστίασης…
+	Follows only edges this close to the pointer ([ and ] change it)	Ακολουθεί μόνο ακμές τόσο κοντά στον δείκτη (αλλαγή με [ και ])
+	Font	Γραμματοσειρά
+	Font Preview Size	Μέγεθος προεπισκόπησης γραμματοσειράς
+	Font Size:	Μέγεθος γραμματοσειράς:
+	Font size	Μέγεθος γραμματοσειράς
+	Foreground to Background	Από χρώμα προσκηνίου σε φόντο
+	Foreground/Background Jitter	Διακύμανση προσκηνίου/φόντου
+	Fractions	Κλάσματα
+	Fragment	Θραύσματα
+	Frame Duration	Διάρκεια καρέ
+	Frame Sync	Συγχρονισμός καρέ
+	Frame from Layers…	Καρέ από επίπεδα…
+	Frame {current} / {total}	Καρέ {current} / {total}
+	Free	Ελεύθερο
+	Freeze Lasso: drag to freeze an area, Alt-drag to thaw it (L)	Λάσο παγώματος: σύρετε για πάγωμα περιοχής ή Alt-σύρσιμο για απόψυξη (L)
+	Frequency	Συχνότητα
+	From	Από
+	Full Screen Mode	Λειτουργία πλήρους οθόνης
+	Full Screen Mode With Menu Bar	Πλήρης οθόνη με γραμμή μενού
+	Full Spherical	Πλήρης σφαιρική προβολή
+	Fuzziness:	Χρωματική ανοχή:
+	Gamma Correction	Διόρθωση γάμμα
+	Gamma:	Γάμμα:
+	Gamut Warning	Προειδοποίηση χρωματικής γκάμας
+	Gaussian	Γκαουσιανό
+	Gaussian Blur	Θόλωση Γκάους
+	Gaussian Blur…	Θόλωση Γκάους…
+	General Blend	Γενική ανάμειξη
+	Global Light	Καθολικός φωτισμός
+	Glossy	Γυαλιστερό
+	Glow Color	Χρώμα λάμψης
+	Glyph	Γλύφος
+	Glyph Scaling	Κλιμάκωση γλυφών
+	Glyphs	Γλύφοι
+	Gradients	Διαβαθμίσεις
+	Graphic Pen	Γραφίδα σχεδίασης
+	Graphic and Web	Γραφικά και ιστός
+	Graphics	Γραφικά
+	Gray Gamma 2.2	Γκρι με γάμμα 2,2
+	Greens	Πράσινες αποχρώσεις
+	Grid color	Χρώμα πλέγματος
+	Grid colors	Χρώματα πλέγματος
+	Grid size	Μέγεθος πλέγματος
+	Grid style	Στυλ πλέγματος
+	Grid unit	Μονάδα πλέγματος
+	Grid:	Πλέγμα:
+	Gridline every	Γραμμή πλέγματος ανά
+	Group from Layers	Ομάδα από επίπεδα
+	Group · {n} layer	Ομάδα · {n} επίπεδο
+	Grow	Μεγέθυνση επιλογής
+	Guide color	Χρώμα οδηγών
+	Guide style	Στυλ οδηγών
+	Guides, Grid & Slices	Οδηγοί, πλέγμα και τομές
+	Gutter	Διάκενο
+	HDR Toning	Τονική επεξεργασία HDR
+	HSB Color	Χρώμα HSB
+	HSL/Grayscale	HSL/Κλίμακα του γκρι
+	Halftone Pattern	Μοτίβο ημιτονισμού
+	Hanging Punctuation	Κρεμαστή στίξη
+	Hard	Σκληρό
+	Heal	Επιδιόρθωση
+	Healing	Επιδιόρθωση (Healing)
+	Heart	Καρδιά
+	Height:	Ύψος:
+	Hide Auto Slices	Απόκρυψη αυτόματων τομών
+	Hide Properties	Απόκρυψη ιδιοτήτων
+	Hide the layer's effects  ({key}-click: all layers)	Απόκρυψη εφέ επιπέδου  ({key}-κλικ: όλα τα επίπεδα)
+	Hide the layer's effects  (⌥-click: all layers)	Απόκρυψη εφέ επιπέδου  (⌥-κλικ: όλα τα επίπεδα)
+	High Pass	Υψηλοπερατό φίλτρο
+	High Pass…	Υψηλοπερατό φίλτρο…
+	Higher values follow only edges that contrast sharply with their surroundings	Οι υψηλότερες τιμές ακολουθούν μόνο ακμές με έντονη αντίθεση από το περιβάλλον τους
+	Highlight	Φωτεινή περιοχή
+	Highlight Compression	Συμπίεση φωτεινών περιοχών
+	Highlights from:	Φωτεινές περιοχές από:
+	History Log	Καταγραφή ιστορικού
+	History states	Καταστάσεις ιστορικού
+	Home	Αρχική οθόνη
+	Horizontal scale	Οριζόντια κλίμακα
+	How often fastening points are placed by themselves	Συχνότητα αυτόματης τοποθέτησης σημείων αγκύρωσης
+	Hue Jitter	Διακύμανση απόχρωσης
+	Huge	Τεράστιο
+	Hyphenate	Συλλαβισμός
+	ISO Speed	Ευαισθησία ISO
+	Ignore All	Παράβλεψη όλων
+	Ignore exif profile tag	Παράβλεψη ετικέτας προφίλ EXIF
+	Image Processor	Επεξεργαστής εικόνων
+	Image Size:	Μέγεθος εικόνας:
+	Image interpolation	Παρεμβολή εικόνας
+	Image previews	Προεπισκοπήσεις εικόνων
+	Import Brushes… (.abr)	Εισαγωγή πινέλων… (.abr)
+	Import Presets	Εισαγωγή προεπιλογών
+	Imported	Εισήχθη
+	In	Είσοδος
+	Inches	Ίντσες
+	Indent First	Εσοχή πρώτης γραμμής
+	Indent Left	Αριστερή εσοχή
+	Indent Right	Δεξιά εσοχή
+	Indent first line	Εσοχή πρώτης γραμμής
+	Indent left margin	Εσοχή αριστερού περιθωρίου
+	Indent right margin	Εσοχή δεξιού περιθωρίου
+	Indexed	Χρώματα παλέτας
+	Inflate	Φούσκωμα
+	Initial Direction	Αρχική κατεύθυνση
+	Inner Bevel	Εσωτερική λοξότμηση
+	Input:	Είσοδος:
+	Inside	Εσωτερικά
+	Install Plug-in	Εγκατάσταση προσθέτου
+	Integrations	Ενσωματώσεις
+	Interlaced	Πεπλεγμένο
+	Internet Standard RGB	Τυπικό RGB διαδικτύου
+	Interpolation:	Παρεμβολή:
+	Interpret Footage	Ερμηνεία πλάνων
+	Intersect with selection  ({key})	Τομή με την επιλογή  ({key})
+	Intersect with selection  (⇧⌥)	Τομή με την επιλογή  (⇧⌥)
+	Invalid {mode} profile	Μη έγκυρο προφίλ {mode}
+	Inverse Selection	Αντιστροφή επιλογής
+	Invert All	Αντιστροφή όλων
+	Invert has no settings.	Η αντιστροφή δεν διαθέτει ρυθμίσεις.
+	Invert…	Αντιστροφή…
+	Iris Blur	Θόλωση ίριδας
+	Iris Blur…	Θόλωση ίριδας…
+	Italic	Πλάγια
+	Jag	Οδοντωτό
+	Join the ArtCraft Discord…	Συμμετοχή στο Discord του ArtCraft…
+	Join us on Discord	Ελάτε στην κοινότητά μας στο Discord
+	Jpeg quality	Ποιότητα JPEG
+	Justification	Πλήρης στοίχιση
+	Justify	Πλήρης στοίχιση
+	Justify all	Πλήρης στοίχιση όλων των γραμμών
+	Justify last centered	Πλήρης στοίχιση με κεντραρισμένη τελευταία γραμμή
+	Justify last left	Πλήρης στοίχιση με τελευταία γραμμή αριστερά
+	Justify last right	Πλήρης στοίχιση με τελευταία γραμμή δεξιά
+	Keeps the current texture when switching presets.	Διατηρεί την τρέχουσα υφή κατά την αλλαγή προεπιλογών.
+	Kerning	Διαγραμμάτωση
+	Keyboard Shortcuts and Menus	Συντομεύσεις πληκτρολογίου και μενού
+	Kind	Είδος
+	Label	Ετικέτα
+	Label Size	Μέγεθος ετικέτας
+	Labels	Ετικέτες
+	Lanczos (sharp)	Lanczos (ευκρινές)
+	Landscape	Οριζόντιος προσανατολισμός
+	Landscape, 10 x 8	Οριζόντιο, 10 × 8
+	Landscape, 6 x 4	Οριζόντιο, 6 × 4
+	Landscape, 7 x 5	Οριζόντιο, 7 × 5
+	Large	Μεγάλο
+	Large tabs	Μεγάλες καρτέλες
+	Last Document State	Τελευταία κατάσταση εγγράφου
+	Last Filter	Τελευταίο φίλτρο
+	Layer Comp	Σύνθεση επιπέδων
+	Layer Comps to Files	Συνθέσεις επιπέδων σε αρχεία
+	Layer Content Options	Επιλογές περιεχομένου επιπέδου
+	Layer Count	Πλήθος επιπέδων
+	Layer From Background	Επίπεδο από φόντο
+	Layer Knocks Out Drop Shadow	Το επίπεδο αφαιρεί την προσπίπτουσα σκιά
+	Layer from Background	Επίπεδο από φόντο
+	Layers to Files	Επίπεδα σε αρχεία
+	Layout	Διάταξη
+	Leading	Διάστιχο
+	Leading (set to the font size × auto-leading when Auto)	Διάστιχο (μέγεθος γραμματοσειράς × αυτόματο διάστιχο στην επιλογή Αυτόματο)
+	Leave as is (don't color manage)	Διατήρηση ως έχει (χωρίς διαχείριση χρώματος)
+	Left align text	Αριστερή στοίχιση κειμένου
+	Legacy	Παλαιού τύπου
+	Legacy Macintosh RGB	Παλαιό Macintosh RGB
+	Legacy compositing	Παλαιός τρόπος σύνθεσης
+	Legal	Μέγεθος Legal
+	Length:	Μήκος:
+	Lens	Φακός
+	Lens Blur	Θόλωση φακού
+	Lens Blur…	Θόλωση φακού…
+	Lens Correction	Διόρθωση φακού
+	Lens Corrections	Διορθώσεις φακού
+	Lens Flare	Αντανάκλαση φακού
+	Lens Flare…	Αντανάκλαση φακού…
+	Lens Info	Πληροφορίες φακού
+	Letter	Μέγεθος Letter
+	Letter Spacing	Διάστημα γραμμάτων
+	Level	Επίπεδο
+	Light gray	Ανοιχτό γκρι
+	Lighter Color	Πιο ανοιχτό χρώμα
+	Lighting Effects	Εφέ φωτισμού
+	Lighting Effects…	Εφέ φωτισμού…
+	Lightness	Φωτεινότητα
+	Limit Playback	Περιορισμός αναπαραγωγής
+	Limits:	Όρια:
+	Line	Γραμμή
+	Linear	Γραμμικό
+	Linear Dodge (Add)	Γραμμική υπερέκθεση (προσθήκη)
+	Linear Gradient	Γραμμική διαβάθμιση
+	Linear Height	Γραμμικό ύψος
+	Lines	Γραμμές
+	Link layers	Σύνδεση επιπέδων
+	Link width and height	Σύνδεση πλάτους και ύψους
+	Link with Layer	Σύνδεση με επίπεδο
+	Liquify	Ρευστοποίηση
+	Liquify is not open	Το Liquify δεν είναι ανοιχτό
+	Liquify…	Ρευστοποίηση…
+	Load 3D LUT…	Φόρτωση 3D LUT…
+	Load Default Type Styles	Φόρτωση προεπιλεγμένων στυλ κειμένου
+	Load Files into Stack…	Φόρτωση αρχείων σε στοίβα…
+	Load Selection…	Φόρτωση επιλογής…
+	Load channel as selection	Φόρτωση καναλιού ως επιλογής
+	Load…	Φόρτωση…
+	Localized Color Clusters	Τοπικές ομάδες χρωμάτων
+	Lock Guides	Κλείδωμα οδηγών
+	Lock Layers	Κλείδωμα επιπέδων
+	Lock Slices	Κλείδωμα τομών
+	Lock Workspace	Κλείδωμα χώρου εργασίας
+	Lock all	Κλείδωμα όλων
+	Lock image pixels	Κλείδωμα εικονοστοιχείων εικόνας
+	Lock layer	Κλείδωμα επιπέδου
+	Lock position	Κλείδωμα θέσης
+	Lock transparent pixels	Κλείδωμα διαφανών εικονοστοιχείων
+	Lock:	Κλείδωμα:
+	Logical Length:	Λογικό μήκος:
+	Logical Units:	Λογικές μονάδες:
+	Loop	Επανάληψη
+	Lossless	Χωρίς απώλειες
+	Lowercase extension	Πεζά γράμματα στην επέκταση αρχείου
+	Lum	Φωτεινότητα
+	Luminosity	Φωτεινότητα
+	Magenta  ·  Green	Ματζέντα · πράσινο
+	Magentas	Αποχρώσεις ματζέντα
+	Maintain aspect ratio	Διατήρηση αναλογίας διαστάσεων
+	Make	Κατασκευαστής
+	Make Default	Ορισμός ως προεπιλογής
+	Make Selection	Δημιουργία επιλογής
+	Make Work Path	Δημιουργία διαδρομής εργασίας
+	Marker Size	Μέγεθος δείκτη
+	Master	Κύριο
+	Match All	Αντιστοίχιση όλων
+	Match Color	Αντιστοίχιση χρωμάτων
+	Match Location	Συγχρονισμός θέσης
+	Match Rotation	Συγχρονισμός περιστροφής
+	Match Zoom	Συγχρονισμός μεγέθυνσης
+	Matte	Χρώμα υποβάθρου
+	Maximize psd compatibility	Μέγιστη συμβατότητα PSD
+	Maximum…	Μέγιστο…
+	Mean:	Μέσος όρος:
+	Measure	Μέτρηση
+	Measurement Log	Αρχείο καταγραφής μετρήσεων
+	Measurement Scale	Κλίμακα μέτρησης
+	Measurement Scale Marker	Δείκτης κλίμακας μέτρησης
+	Median:	Διάμεσος:
+	Medium	Μεσαίο
+	Medium gray	Μεσαίο γκρι
+	Memory usage mb	Χρήση μνήμης σε MB
+	Menus	Μενού
+	Merge to HDR Pro	Συγχώνευση σε HDR Pro
+	Mesh	Πλέγμα
+	Mesh Size	Μέγεθος πλέγματος
+	Metadata	Μεταδεδομένα
+	Method	Μέθοδος
+	Metrics	Μετρικά στοιχεία
+	Mezzotint	Μετζοτίντα
+	Mezzotint…	Μετζοτίντα…
+	Middle Eastern & South Asian Composer	Μηχανή σύνθεσης κειμένου Μέσης Ανατολής και Νότιας Ασίας
+	Middle Eastern Features	Δυνατότητες γλωσσών Μέσης Ανατολής
+	Midtones from:	Μεσαίοι τόνοι από:
+	Midtones to:	Μεσαίοι τόνοι έως:
+	Millimeters	Χιλιοστά
+	Minimum Depth	Ελάχιστο βάθος
+	Minimum Diameter	Ελάχιστη διάμετρος
+	Minimum Roundness	Ελάχιστη στρογγυλότητα
+	Minimum…	Ελάχιστο…
+	Missing glyph protection	Προστασία από απόντες γλύφους
+	Mobile	Κινητές συσκευές
+	Mode:	Λειτουργία:
+	Model	Μοντέλο
+	Modern	Σύγχρονο
+	Modifier Keys	Πλήκτρα τροποποίησης
+	Modify	Τροποποίηση
+	Modify Date	Ημερομηνία τροποποίησης
+	Monitor RGB	RGB οθόνης
+	Monochrome	Μονόχρωμο
+	More Points	Περισσότερα σημεία
+	More panels	Περισσότερα πλαίσια
+	Mosaic	Μωσαϊκό
+	Mosaic…	Μωσαϊκό…
+	Motion	Κίνηση
+	Motion Blur	Θόλωση κίνησης
+	Motion Blur…	Θόλωση κίνησης…
+	Move effect layer down	Μετακίνηση επιπέδου εφέ κάτω
+	Move effect layer up	Μετακίνηση επιπέδου εφέ επάνω
+	Move to	Μετακίνηση σε
+	NTSC Colors	Χρώματα NTSC
+	Name:	Όνομα:
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	Η μεταφορά και απόθεση αρχείων δεν υποστηρίζεται ακόμη στο Wayland. Χρησιμοποιήστε Αρχείο › Άνοιγμα ή εκτελέστε το PhotoCraft μέσω XWayland με `WAYLAND_DISPLAY= photocraft`.
+	Nearest Neighbor	Πλησιέστερος γείτονας
+	Nearest Neighbor (hard edges)	Πλησιέστερος γείτονας (σκληρές ακμές)
+	Nearest neighbor	Πλησιέστερος γείτονας
+	Neon Glow	Λάμψη νέον
+	Neutrals	Ουδέτεροι τόνοι
+	Never	Ποτέ
+	New Guide Layout	Νέα διάταξη οδηγών
+	New Path	Νέα διαδρομή
+	New Size	Νέο μέγεθος
+	New Video Group	Νέα ομάδα βίντεο
+	New Video Layer	Νέο επίπεδο βίντεο
+	New Video Layer from File	Νέο επίπεδο βίντεο από αρχείο
+	New Window for Document	Νέο παράθυρο για το έγγραφο
+	New Workspace	Νέος χώρος εργασίας
+	New Workspace…	Νέος χώρος εργασίας…
+	New document…	Νέο έγγραφο…
+	New effect layer	Νέο επίπεδο εφέ
+	New selection	Νέα επιλογή
+	Newspaper	Εφημερίδα
+	Next Theme	Επόμενο θέμα
+	Next frame	Επόμενο καρέ
+	Next note	Επόμενη σημείωση
+	No Color	Χωρίς χρώμα
+	No Color Management	Χωρίς διαχείριση χρώματος
+	No Dither	Χωρίς πρόσμειξη θορύβου
+	No author	Χωρίς δημιουργό
+	No character style	Χωρίς στυλ χαρακτήρων
+	No document	Δεν υπάρχει έγγραφο
+	No matching commands	Δεν βρέθηκαν αντίστοιχες εντολές
+	No presets of this type.	Δεν υπάρχουν προεπιλογές αυτού του τύπου.
+	No properties	Δεν υπάρχουν ιδιότητες
+	Normal tip	Κανονική άκρη
+	Not in Dictionary:	Δεν υπάρχει στο λεξικό:
+	Note Paper	Χαρτί σημειώσεων
+	Notes	Σημειώσεις
+	Notes…	Σημειώσεις…
+	Ocean Ripple	Κυματισμός ωκεανού
+	Offset…	Μετατόπιση…
+	Oil Paint	Ελαιογραφία
+	Oil Paint…	Ελαιογραφία…
+	Oldstyle	Παλαιού τύπου
+	Only Web Colors	Μόνο χρώματα ιστού
+	Open As	Άνοιγμα ως
+	Open as smart object	Άνοιγμα ως έξυπνο αντικείμενο
+	Open documents as tabs	Άνοιγμα εγγράφων σε καρτέλες
+	Operation	Λειτουργία
+	Optical	Οπτική
+	Optimized	Βελτιστοποιημένο
+	Options	Επιλογές
+	Ordinals	Τακτικοί αριθμοί
+	Original	Πρωτότυπο
+	Original Ratio	Αρχική αναλογία
+	Ornaments	Διακοσμητικά στοιχεία
+	Other…	Άλλα…
+	Out	Έξοδος
+	Out Of Gamut	Εκτός χρωματικής γκάμας
+	Outer Bevel	Εξωτερική λοξότμηση
+	Output:	Έξοδος:
+	Outside	Εξωτερικά
+	Overlay Color	Χρώμα επικάλυψης
+	Overscroll	Επιπλέον κύλιση
+	Package	Πακέτο
+	Paint Daubs	Πινελιές χρώματος
+	Painting	Ζωγραφική
+	Paper	Χαρτί
+	Paragraph Styles	Στυλ παραγράφων
+	Patch:	Επιδιόρθωση:
+	Path Blur	Θόλωση διαδρομής
+	Path Blur…	Θόλωση διαδρομής…
+	Path to Illustrator…	Διαδρομή προς Illustrator…
+	Path:	Διαδρομή:
+	Paths to Illustrator	Διαδρομές σε Illustrator
+	Pattern Preview	Προεπισκόπηση μοτίβου
+	Perceptual	Αντιληπτικό
+	Performance	Επιδόσεις
+	Perspective Warp	Παραμόρφωση προοπτικής
+	Photo	Φωτογραφία
+	PhotoCraft Website	Ιστότοπος PhotoCraft
+	PhotoCraft on GitHub	PhotoCraft στο GitHub
+	Photocopy	Φωτοαντίγραφο
+	Photography	Φωτογραφία
+	Photomerge	Συγχώνευση φωτογραφιών
+	Picas	Πίκες
+	Picture Frame	Κορνίζα εικόνας
+	Picture Frame…	Κορνίζα εικόνας…
+	Pillow Emboss	Ανάγλυφο μαξιλαριού
+	Pin Depth:	Βάθος καρφίτσας:
+	Pinch	Σύσφιξη
+	Pinch…	Σύσφιξη…
+	Pixel Art	Τέχνη εικονοστοιχείων
+	Pixel Art Preview	Προεπισκόπηση εικονογραφίας pixel
+	Pixel Aspect Ratio	Αναλογία διαστάσεων εικονοστοιχείων
+	Pixel Aspect Ratio Correction	Διόρθωση αναλογίας εικονοστοιχείων
+	Pixel Grid	Πλέγμα εικονοστοιχείων
+	Pixel Length:	Μήκος σε εικονοστοιχεία:
+	Pixel Replacement	Αντικατάσταση εικονοστοιχείων
+	Pixels:	Εικονοστοιχεία:
+	Place Embedded	Τοποθέτηση ενσωματωμένου
+	Place Linked	Τοποθέτηση συνδεδεμένου
+	Place Scale Marker	Τοποθέτηση δείκτη κλίμακας
+	Plaster	Γύψος
+	Plastic Wrap	Πλαστική μεμβράνη
+	Play	Αναπαραγωγή
+	Play selection	Αναπαραγωγή επιλογής
+	Plug-ins	Πρόσθετα
+	Point size	Μέγεθος σε σημεία
+	Pointillize	Πουαντιγισμός
+	Pointillize…	Πουαντιγισμός…
+	Points	Σημεία
+	Polar Coordinates	Πολικές συντεταγμένες
+	Polar Coordinates…	Πολικές συντεταγμένες…
+	Polar To Rectangular	Από πολικές σε ορθογώνιες
+	Portrait	Κατακόρυφος προσανατολισμός
+	PostScript (72 points/inch)	PostScript (72 σημεία/ίντσα)
+	Postcard	Καρτ ποστάλ
+	Poster	Αφίσα
+	Poster Edges	Άκρα αφίσας
+	Precise	Ακριβές
+	Preserve details	Διατήρηση λεπτομερειών
+	Preset Manager	Διαχείριση προεπιλογών
+	Preset:	Προεπιλογή:
+	Presets:	Προεπιλογές:
+	Pressure	Πίεση
+	Print Size	Μέγεθος εκτύπωσης
+	Print resolution	Ανάλυση εκτύπωσης
+	Printer	Εκτυπωτής
+	Pro (Dark)	Pro (σκοτεινό)
+	Pro (Medium Gray)	Pro (μεσαίο γκρι)
+	Pro Medium Gray Theme	Θέμα Pro μεσαίου γκρι
+	Pro Theme	Θέμα Pro
+	Profile	Προφίλ
+	Progressive	Προοδευτικό
+	Promote	Προαγωγή
+	Proof Colors	Χρώματα δοκιμίου
+	Proof Setup	Ρύθμιση δοκιμίου
+	Proximity Match	Αντιστοίχιση βάσει εγγύτητας
+	Pulled String Mode	Λειτουργία ελαστικού νήματος
+	Punctuation	Στίξη
+	Puppet Warp is not active	Το Puppet Warp δεν είναι ενεργό
+	Purity	Καθαρότητα
+	Quick Sync	Γρήγορος συγχρονισμός
+	Quick export format	Μορφή γρήγορης εξαγωγής
+	Quick export location	Θέση γρήγορης εξαγωγής
+	Radial	Ακτινικό
+	Radial Blur	Ακτινική θόλωση
+	Radial Blur…	Ακτινική θόλωση…
+	Radius:	Ακτίνα:
+	Range	Εύρος
+	Range:	Εύρος:
+	Rate	Ρυθμός
+	Ratio	Αναλογία
+	Raw Data	Ακατέργαστα δεδομένα
+	Raw Defaults	Προεπιλογές RAW
+	Recent file count	Αριθμός πρόσφατων αρχείων
+	Recent files	Πρόσφατα αρχεία
+	Recent fonts	Πρόσφατες γραμματοσειρές
+	Reconstruct	Ανακατασκευή
+	Record ● a sequence of edits, then play ▶ it on any document.	Καταγράψτε ● μια ακολουθία επεξεργασιών και έπειτα αναπαράγετέ τη ▶ σε οποιοδήποτε έγγραφο.
+	Recover on launch	Ανάκτηση κατά την εκκίνηση
+	Rectangle	Ορθογώνιο
+	Rectangular To Polar	Από ορθογώνιες σε πολικές
+	Redefine style by current selection	Επανακαθορισμός στυλ από την τρέχουσα επιλογή
+	Reds	Κόκκινες αποχρώσεις
+	Reduce Noise	Μείωση θορύβου
+	Reduce Noise…	Μείωση θορύβου…
+	Reflected	Ανακλώμενο
+	Reflected Gradient	Ανακλώμενη διαβάθμιση
+	Registration Marks	Σημάδια συμπτώσεως
+	Regular	Κανονικό
+	Relative	Σχετικό
+	Relative Colorimetric	Σχετική χρωματομετρική
+	Relight…	Επαναφωτισμός…
+	Relink to File	Επανασύνδεση με αρχείο
+	Remember workspace changes	Απομνημόνευση αλλαγών χώρου εργασίας
+	Remove All Pins	Αφαίρεση όλων των καρφιτσών
+	Remove Background	Αφαίρεση φόντου
+	Remove Planes	Αφαίρεση επιπέδων προοπτικής
+	Remove Warp Split	Αφαίρεση διαχωρισμού παραμόρφωσης
+	Remove stop	Αφαίρεση σημείου διαβάθμισης
+	Remove variable	Αφαίρεση μεταβλητής
+	Rename Group…	Μετονομασία ομάδας…
+	Rename Layer…	Μετονομασία επιπέδου…
+	Render Video	Απόδοση βίντεο
+	Rendering mode	Λειτουργία απόδοσης
+	Replace All Missing Fonts	Αντικατάσταση όλων των γραμματοσειρών που λείπουν
+	Replace Color	Αντικατάσταση χρώματος
+	Replace Contents	Αντικατάσταση περιεχομένων
+	Replace Footage	Αντικατάσταση πλάνων
+	Report an Issue…	Αναφορά προβλήματος…
+	Resample	Επαναδειγματοληψία
+	Reselect	Επαναφορά προηγούμενης επιλογής
+	Reset All to Defaults	Επαναφορά όλων στις προεπιλογές
+	Reset GPU Backend	Επαναφορά συστήματος απόδοσης GPU
+	Reset Section	Επαναφορά ενότητας
+	Reset Transform	Επαναφορά μετασχηματισμού
+	Reset Workspace	Επαναφορά χώρου εργασίας
+	Reset to defaults	Επαναφορά προεπιλογών
+	Resize image during place	Αλλαγή μεγέθους εικόνας κατά την τοποθέτηση
+	Resolution:	Ανάλυση:
+	Resolution: {dpi} pixels/inch	Ανάλυση: {dpi} εικονοστοιχεία/ίντσα
+	Resolve Missing Fonts	Επίλυση ελλείψεων γραμματοσειρών
+	Resolve Missing Fonts…	Επίλυση ελλείψεων γραμματοσειρών…
+	Restore All	Επαναφορά όλων
+	Restore Defaults	Επαναφορά προεπιλογών
+	Restrictive (Web)	Περιοριστικό (ιστός)
+	Reticulation	Δικτύωση
+	Revert “{name}” to the last saved version? Your changes will be lost.	Επαναφορά του «{name}» στην τελευταία αποθηκευμένη έκδοση; Οι αλλαγές σας θα χαθούν.
+	Right align text	Δεξιά στοίχιση κειμένου
+	Right click with painting tools	Δεξί κλικ με εργαλεία ζωγραφικής
+	Rigid	Άκαμπτο
+	Ripple	Κυματισμός
+	Ripple…	Κυματισμός…
+	Rise	Ανύψωση
+	Roman	Όρθια γραφή
+	Roman Hanging Punctuation	Κρεμαστή στίξη όρθιας γραφής
+	Rotate Auto	Αυτόματη περιστροφή
+	Rotate Fixed	Σταθερή περιστροφή
+	Rotate view with trackpad	Περιστροφή προβολής με επιφάνεια αφής
+	Rotate:	Περιστροφή:
+	Rough Pastels	Τραχιά παστέλ
+	Roundness Jitter	Διακύμανση στρογγυλότητας
+	Roundness:	Στρογγυλότητα:
+	Rulers & Grids	Χάρακες και πλέγματα
+	Same folder	Ίδιος φάκελος
+	Sample:	Δείγμα:
+	Sampling: Background Swatch	Δειγματοληψία: δείγμα φόντου
+	Sampling: Continuous	Δειγματοληψία: συνεχής
+	Sampling: Once	Δειγματοληψία: μία φορά
+	Sat	Κορεσμός
+	Satin	Σατέν
+	Saturate	Αύξηση κορεσμού
+	Saturation Jitter	Διακύμανση κορεσμού
+	Save Default Type Styles	Αποθήκευση προεπιλεγμένων στυλ κειμένου
+	Save HTML and Images	Αποθήκευση HTML και εικόνων
+	Save Selection…	Αποθήκευση επιλογής…
+	Save a Copy	Αποθήκευση αντιγράφου
+	Save as PDF	Αποθήκευση ως PDF
+	Save for Web (Legacy)	Αποθήκευση για ιστό (παλαιού τύπου)
+	Save in background	Αποθήκευση στο παρασκήνιο
+	Save selection as channel	Αποθήκευση επιλογής ως καναλιού
+	Saved Multichannel	Αποθηκευμένο πολυκάναλο
+	Save…	Αποθήκευση…
+	Scale Effects	Κλιμάκωση εφέ
+	Scale to Fit Media	Κλιμάκωση ώστε να χωρά στο μέσο
+	Scatter	Διασπορά
+	Scattering	Διασπορά
+	Scratch Disks	Δίσκοι προσωρινής αποθήκευσης
+	Scratch disks	Δίσκοι προσωρινής αποθήκευσης
+	Scratch: {size}	Προσωρινός δίσκος: {size}
+	Screen Mode	Λειτουργία οθόνης
+	Screen resolution	Ανάλυση οθόνης
+	Script Events Manager	Διαχείριση συμβάντων σεναρίων
+	Scrubby slider acceleration	Επιτάχυνση ρυθμιστικών σύρσιμου
+	Search commands	Αναζήτηση εντολών
+	Search fonts	Αναζήτηση γραμματοσειρών
+	Search menus	Αναζήτηση μενού
+	Seed	Αρχική τιμή τυχαιότητας
+	Select Plane	Επιλογή επιπέδου προοπτικής
+	Select a type layer or click into text to insert glyphs	Επιλέξτε επίπεδο κειμένου ή κάντε κλικ μέσα στο κείμενο για να εισαγάγετε γλύφους
+	Select and Mask	Επιλογή και μάσκα
+	Select text to apply a character style	Επιλέξτε κείμενο για εφαρμογή στυλ χαρακτήρων
+	Select:	Επιλογή:
+	Selection Edges	Όρια επιλογής
+	Selective	Επιλεκτικό
+	Semi Bold	Ημιέντονα
+	SemiBold	Ημιέντονα
+	Send the selected pin backward	Μετακίνηση της επιλεγμένης καρφίτσας πίσω
+	Sessions only	Μόνο για την τρέχουσα συνεδρία
+	Set Measurement Scale	Ορισμός κλίμακας μέτρησης
+	Set additional smoothing options	Ορισμός πρόσθετων επιλογών εξομάλυνσης
+	Set background color	Ορισμός χρώματος φόντου
+	Set foreground color	Ορισμός χρώματος προσκηνίου
+	Set painting symmetry options	Ορισμός επιλογών συμμετρίας ζωγραφικής
+	Set shape fill type	Ορισμός τύπου γεμίσματος σχήματος
+	Set shape stroke type	Ορισμός τύπου περιγράμματος σχήματος
+	Set the text color	Ορισμός χρώματος κειμένου
+	Shadows/Highlights	Σκιές/φωτεινές περιοχές
+	Shape	Σχήμα
+	Shape Blur	Θόλωση σχήματος
+	Shape Blur…	Θόλωση σχήματος…
+	Shape:	Σχήμα:
+	Shapes	Σχήματα
+	Sharp	Ευκρινές
+	Sharpen for	Όξυνση για
+	Shear	Διάτμηση
+	Shear…	Διάτμηση…
+	Shell Lower	Κάτω κέλυφος
+	Shell Upper	Πάνω κέλυφος
+	Shortcut removed.	Η συντόμευση αφαιρέθηκε.
+	Show All Menu Items	Εμφάνιση όλων των στοιχείων μενού
+	Show Backdrop	Εμφάνιση υποβάθρου
+	Show Extras Options…	Επιλογές εμφάνισης πρόσθετων στοιχείων…
+	Show Mesh	Εμφάνιση πλέγματος
+	Show Overlay	Εμφάνιση επικάλυψης
+	Show Transform Controls	Εμφάνιση χειριστηρίων μετασχηματισμού
+	Show channels in color	Εμφάνιση καναλιών με χρώμα
+	Show crosshair in brush tip	Εμφάνιση σταυρονήματος στην άκρη πινέλου
+	Show extension panels	Εμφάνιση πλαισίων επεκτάσεων
+	Show or hide the Notes panel	Εμφάνιση ή απόκρυψη πλαισίου σημειώσεων
+	Show the layer's effects  ({key}-click: all layers)	Εμφάνιση εφέ επιπέδου  ({key}-κλικ: όλα τα επίπεδα)
+	Show the layer's effects  (⌥-click: all layers)	Εμφάνιση εφέ επιπέδου  (⌥-κλικ: όλα τα επίπεδα)
+	Show:	Εμφάνιση:
+	Sides	Πλευρές
+	Sides:	Πλευρές:
+	Similar	Παρόμοια
+	Single Word Justification	Πλήρης στοίχιση μονής λέξης
+	Size Jitter	Διακύμανση μεγέθους
+	Size:	Μέγεθος:
+	Slice Options…	Επιλογές τομών…
+	Slices	Τομές
+	Slices From Guides	Τομές από οδηγούς
+	Slices are locked (View › Lock Slices)	Οι τομές είναι κλειδωμένες (Προβολή › Κλείδωμα τομών)
+	Small	Μικρό
+	Small Caps	Μικρά κεφαλαία
+	Smart Blur	Έξυπνη θόλωση
+	Smart Blur…	Έξυπνη θόλωση…
+	Smart Guides	Έξυπνοι οδηγοί
+	Smart Sharpen	Έξυπνη όξυνση
+	Smart Sharpen…	Έξυπνη όξυνση…
+	Smooth…	Εξομάλυνση…
+	Smudge Stick	Σβήσιμο με ράβδο
+	Snap To	Προσκόλληση σε
+	Soft	Απαλό
+	Software	Λογισμικό
+	Solarize	Ηλιακή έκθεση
+	Solid Color	Συμπαγές χρώμα
+	Source	Προέλευση
+	Source: not set ({key}-click with Clone Stamp)	Πηγή: δεν έχει οριστεί ({key}-κλικ με Clone Stamp)
+	Space After	Διάστημα μετά
+	Space Before	Διάστημα πριν
+	Spacing:	Απόσταση:
+	Spell check complete.	Ο ορθογραφικός έλεγχος ολοκληρώθηκε.
+	Spherize	Σφαιροποίηση
+	Spherize…	Σφαιροποίηση…
+	Spin Blur	Περιστροφική θόλωση
+	Spin Blur…	Περιστροφική θόλωση…
+	Split Toning	Διχρωμία τόνων
+	Split Warp Crosswise	Εγκάρσιος διαχωρισμός παραμόρφωσης
+	Split Warp Horizontally	Οριζόντιος διαχωρισμός παραμόρφωσης
+	Split Warp Vertically	Κατακόρυφος διαχωρισμός παραμόρφωσης
+	Split at Playhead	Διαχωρισμός στη θέση αναπαραγωγής
+	Split:	Διαχωρισμός:
+	Spot	Σημείο
+	Spot Channel	Κανάλι πλακάτου χρώματος
+	Sprayed Strokes	Πινελιές ψεκασμού
+	Spread	Εξάπλωση
+	Square	Τετράγωνο
+	Square, 12 x 12	Τετράγωνο, 12 × 12
+	Square, 5 x 5	Τετράγωνο, 5 × 5
+	Squeeze	Συμπίεση
+	Stamp	Σφραγίδα
+	Standard	Τυπικό
+	Standard Ligatures	Τυπικά συμπλέγματα χαρακτήρων
+	Standard Screen Mode	Τυπική λειτουργία οθόνης
+	Star ratio	Αναλογία αστεριού
+	Statistics…	Στατιστικά…
+	Stop playing/recording	Διακοπή αναπαραγωγής/εγγραφής
+	Straighten	Ευθυγράμμιση
+	Straighten Layer	Ευθυγράμμιση επιπέδου
+	Strength:	Ένταση:
+	Strikethrough	Διακριτή διαγραφή
+	Stroke Catch-up	Προσαρμογή πινελιάς στην κίνηση
+	Stroke Path	Περίγραμμα διαδρομής
+	Stroke:	Περίγραμμα:
+	Strokes	Πινελιές
+	Strong	Έντονο
+	Structure:	Δομή:
+	Studio	Στούντιο
+	Studio (Dark)	Studio (σκοτεινό)
+	Studio (Light)	Studio (φωτεινό)
+	Studio Light Theme	Φωτεινό θέμα Studio
+	Studio Theme	Θέμα Studio
+	Studio light	Φωτεινό στούντιο
+	Style	Στυλ
+	Style Options	Επιλογές στυλ
+	Style Options…	Επιλογές στυλ…
+	Style {name} saved	Το στυλ {name} αποθηκεύτηκε
+	Style: Normal	Στυλ: Κανονικό
+	Styles	Στυλ
+	Stylistic Alternates	Στυλιστικές εναλλακτικές
+	Stylize	Στιλιζάρισμα
+	Stylus Wheel	Τροχός γραφίδας
+	Subject Distance	Απόσταση θέματος
+	Subtract from Sample	Αφαίρεση από το δείγμα
+	Subtract from selection  ({key})	Αφαίρεση από την επιλογή  ({key})
+	Subtract from selection  (⌥)	Αφαίρεση από την επιλογή  (⌥)
+	Suggestions:	Προτάσεις:
+	Sumi-e	Ιαπωνική ζωγραφική με μελάνι
+	Surface Blur	Θόλωση επιφάνειας
+	Surface Blur…	Θόλωση επιφάνειας…
+	Swap colours (X)	Εναλλαγή χρωμάτων (X)
+	Swaps height and width	Εναλλαγή ύψους και πλάτους
+	Swash	Διακοσμητικά τελειώματα
+	Switch between free transform and warp modes	Εναλλαγή ελεύθερου μετασχηματισμού και παραμόρφωσης
+	Switch theme	Αλλαγή θέματος
+	Symbols	Σύμβολα
+	Symmetry Off	Απενεργοποίηση συμμετρίας
+	System Info	Πληροφορίες συστήματος
+	System Info…	Πληροφορίες συστήματος…
+	Tabloid	Μέγεθος Tabloid
+	Target Path	Διαδρομή προορισμού
+	Technology Previews	Προεπισκοπήσεις τεχνολογιών
+	Tetrahedral	Τετραεδρική
+	Text Position:	Θέση κειμένου:
+	Texture Each Tip	Υφή σε κάθε αποτύπωμα πινέλου
+	Texturizer	Εφαρμογή υφής
+	These settings aren't available in PhotoCraft yet.	Αυτές οι ρυθμίσεις δεν είναι ακόμη διαθέσιμες στο PhotoCraft.
+	Thin	Λεπτό
+	Threshold Level	Στάθμη κατωφλίου
+	Thumbnail size (smallest: list)	Μέγεθος μικρογραφίας (μικρότερο: λίστα)
+	Tile	Παράθεση
+	Tile All Horizontally	Οριζόντια παράθεση όλων
+	Tile All Vertically	Κατακόρυφη παράθεση όλων
+	Tiles	Πλακίδια
+	Tiles…	Πλακίδια…
+	Tilt	Κλίση
+	Tilt X	Κλίση X
+	Tilt Y	Κλίση Y
+	Tilt-Shift	Θόλωση μετατόπισης και κλίσης
+	Tilt-Shift…	Θόλωση μετατόπισης και κλίσης…
+	Timeline	Χρονογραμμή
+	Tiny	Πολύ μικρό
+	Titling Alternates	Εναλλακτικοί χαρακτήρες τίτλων
+	Toggle count group visibility	Εναλλαγή ορατότητας ομάδας καταμέτρησης
+	Toggle text orientation	Εναλλαγή προσανατολισμού κειμένου
+	Tolerance:	Ανοχή:
+	Tone Curve	Τονική καμπύλη
+	Tone:	Τόνος:
+	Tool	Εργαλείο
+	Toolbars	Γραμμές εργαλείων
+	Torn Edges	Σκισμένες άκρες
+	Total:	Σύνολο:
+	Trace Contour	Ιχνηλάτηση περιγράμματος
+	Trace Contour…	Ιχνηλάτηση περιγράμματος…
+	Tracking	Απόσταση χαρακτήρων
+	Tracking (1/1000 em)	Απόσταση χαρακτήρων (1/1000 em)
+	Traditional (72.27 points/inch)	Παραδοσιακό (72,27 σημεία/ίντσα)
+	Transfer	Μεταφορά
+	Trap	Παγίδευση χρωμάτων
+	Tree	Δέντρο
+	Tree…	Δέντρο…
+	Trilinear	Τριγραμμική
+	Trim	Περικοπή περιθωρίων
+	Turbulent	Τυρβώδες
+	Twirl	Στροβιλισμός
+	Twirl…	Στροβιλισμός…
+	Twist	Συστροφή
+	Type Styles	Στυλ κειμένου
+	Type:	Τύπος:
+	Ultra Bold	Εξαιρετικά έντονα
+	Ultra Light	Εξαιρετικά λεπτά
+	Underline	Υπογράμμιση
+	Unnamed {mode} profile	Ανώνυμο προφίλ {mode}
+	Unsaved changes	Μη αποθηκευμένες αλλαγές
+	Unsharp Mask	Μάσκα όξυνσης
+	Unsharp Mask…	Μάσκα όξυνσης…
+	Untagged {mode}	Χωρίς ετικέτα προφίλ {mode}
+	Untitled-1	Χωρίς τίτλο-1
+	Update layer comp (visibility, position and appearance)	Ενημέρωση σύνθεσης επιπέδων (ορατότητα, θέση και εμφάνιση)
+	Use Default	Χρήση προεπιλογής
+	Use File › Open to open an image.	Χρησιμοποιήστε Αρχείο › Άνοιγμα για να ανοίξετε μια εικόνα.
+	Use Legacy	Χρήση παλαιάς λειτουργίας
+	Use Measurement Scale	Χρήση κλίμακας μέτρησης
+	Use the embedded profile (instead of the working space)	Χρήση ενσωματωμένου προφίλ (αντί του χώρου εργασίας)
+	Uses the foreground and background colours.	Χρησιμοποιεί τα χρώματα προσκηνίου και φόντου.
+	Vanishing Point	Σημείο φυγής
+	Vanishing Point…	Σημείο φυγής…
+	Variable Data Sets	Σύνολα δεδομένων μεταβλητών
+	Variables bind a layer's visibility, text or pixels to a named data slot.	Οι μεταβλητές συνδέουν την ορατότητα, το κείμενο ή τα εικονοστοιχεία ενός επιπέδου με ένα ονομασμένο πεδίο δεδομένων.
+	Version {version}	Έκδοση {version}
+	Vertical scale	Κατακόρυφη κλίμακα
+	Video	Βίντεο
+	Video Frames to Layers	Καρέ βίντεο σε επίπεδα
+	View Options	Επιλογές προβολής
+	Violet, Orange	Βιολετί, πορτοκαλί
+	Visibility	Ορατότητα
+	WIA Support	Υποστήριξη WIA
+	WIA Support…	Υποστήριξη WIA…
+	Warp Text	Παραμόρφωση κειμένου
+	Warp Text…	Παραμόρφωση κειμένου…
+	Warp:	Παραμόρφωση:
+	Water Paper	Χαρτί ακουαρέλας
+	Watercolour look: lighter interior, darker rims.	Εμφάνιση ακουαρέλας: φωτεινότερο εσωτερικό και σκοτεινότερα περιγράμματα.
+	Wave	Κύμα
+	Web	Ιστός
+	Web Large	Ιστός — μεγάλο
+	Web Minimum	Ιστός — ελάχιστο
+	Web Most Common	Ιστός — συνηθέστερο
+	Web Snap	Προσκόλληση στον ιστό
+	Weight	Βάρος
+	Weight:	Βάρος:
+	Wet Edges	Υγρές ακμές
+	Width:	Πλάτος:
+	Wind	Άνεμος
+	Windows	Παράθυρα
+	Windows LCD	LCD των Windows
+	Wind…	Άνεμος…
+	Word Spacing	Διάστημα λέξεων
+	Work Path	Διαδρομή εργασίας
+	Working Black Plate	Κανάλι μαύρου εργασίας
+	Working CMY Plate	Κανάλια CMY εργασίας
+	Working CMYK	Χώρος εργασίας CMYK
+	Working Cyan Plate	Κανάλι κυανού εργασίας
+	Working Gray Plate	Κανάλι γκρι εργασίας
+	Working Magenta Plate	Κανάλι ματζέντα εργασίας
+	Working Yellow Plate	Κανάλι κίτρινου εργασίας
+	Yellow  ·  Blue	Κίτρινο · μπλε
+	Yellows	Κίτρινες αποχρώσεις
+	ZigZag	Ζιγκ ζαγκ
+	ZigZag…	Ζιγκ ζαγκ…
+	Zoom in	Μεγέθυνση
+	Zoom out	Σμίκρυνση
+	command or shortcut	εντολή ή συντόμευση
+	current	τρέχον
+	image file path	διαδρομή αρχείου εικόνας
+	modified	τροποποιημένο
+	name	όνομα
+	new	νέο
+	shortcut	συντόμευση
+	{added}, {removed} subtracted	{added}, αφαιρέθηκαν {removed}
+	{key} to subtract	{key} για αφαίρεση
+	{key}-click to set the source	{key}-κλικ για ορισμό πηγής
+	{mode} Color · {bits} bit	Χρώμα {mode} · {bits} bit
+	{name} Properties	Ιδιότητες: {name}
+	{name} options	Επιλογές: {name}
+	↑↓ navigate   {key} run   esc close	↑↓ πλοήγηση   {key} εκτέλεση   Esc κλείσιμο
+	↑↓ navigate   ↵ run   esc close	↑↓ πλοήγηση   ↵ εκτέλεση   esc κλείσιμο
+@plural	Group · {n} layer|Group · {n} layers	Ομάδα · {n} επίπεδο|Ομάδα · {n} επίπεδα
+@plural	{n} Layer|{n} Layers	{n} επίπεδο|{n} επίπεδα
+@plural	{n} item|{n} items	{n} στοιχείο|{n} στοιχεία
+@plural	{n} layer|{n} layers	{n} επίπεδο|{n} επίπεδα
+@plural	{n} sample|{n} samples	{n} δείγμα|{n} δείγματα
+cameraRaw	Amount	Ποσότητα
+cameraRaw	Aqua	Κυανό
+cameraRaw	Blacks	Μαύρα
+cameraRaw	Blending	Ανάμειξη
+cameraRaw	Blue	Μπλε
+cameraRaw	Color	Χρώμα
+cameraRaw	Color Detail	Λεπτομέρεια χρώματος
+cameraRaw	Color Grading	Χρωματική διαβάθμιση
+cameraRaw	Darks	Σκοτεινοί τόνοι
+cameraRaw	Global	Καθολικό
+cameraRaw	Green	Πράσινο
+cameraRaw	Hue	Απόχρωση
+cameraRaw	Light	Φως
+cameraRaw	Lights	Φωτεινοί τόνοι
+cameraRaw	Luminance	Φωτεινότητα
+cameraRaw	Luminance Detail	Λεπτομέρεια φωτεινότητας
+cameraRaw	Magenta	Ματζέντα
+cameraRaw	Masking	Εφαρμογή μάσκας
+cameraRaw	Orange	Πορτοκαλί
+cameraRaw	Purple	Μοβ
+cameraRaw	Red	Κόκκινο
+cameraRaw	Roughness	Τραχύτητα
+cameraRaw	Temperature	Θερμοκρασία
+cameraRaw	Tint	Χρωματική απόχρωση
+cameraRaw	Vibrance	Ζωντάνια χρωμάτων
+cameraRaw	Whites	Λευκά
+cameraRaw	Yellow	Κίτρινο
+
+# Greek tool names, original English in parentheses
+	Ruler Tool	Χάρακας (Ruler Tool)
+	Count Tool	Καταμέτρηση (Count Tool)
+	Background Eraser Tool	Γόμα φόντου (Background Eraser Tool)
+	Blur Tool	Θόλωση (Blur Tool)
+	Brush Tool	Πινέλο (Brush Tool)
+	Clone Stamp Tool	Σφραγίδα κλωνοποίησης (Clone Stamp Tool)
+	Crop Tool	Περικοπή (Crop Tool)
+	Custom Shape Tool	Προσαρμοσμένο σχήμα (Custom Shape Tool)
+	Dodge Tool	Φωτισμός (Dodge Tool)
+	Ellipse Tool	Έλλειψη (Ellipse Tool)
+	Elliptical Marquee Tool	Ελλειπτική επιλογή (Elliptical Marquee Tool)
+	Eraser Tool	Γόμα (Eraser Tool)
+	Eyedropper Tool	Σταγονόμετρο (Eyedropper Tool)
+	Gradient Tool	Διαβάθμιση (Gradient Tool)
+	Hand Tool	Χέρι (Hand Tool)
+	Healing Brush Tool	Πινέλο επιδιόρθωσης (Healing Brush Tool)
+	History Brush Tool	Πινέλο ιστορικού (History Brush Tool)
+	Horizontal Type Tool	Οριζόντιο κείμενο (Horizontal Type Tool)
+	Lasso Tool	Λάσο (Lasso Tool)
+	Line Tool	Γραμμή (Line Tool)
+	Magic Eraser Tool	Μαγική γόμα (Magic Eraser Tool)
+	Magic Wand Tool	Μαγικό ραβδί (Magic Wand Tool)
+	Move Tool	Μετακίνηση (Move Tool)
+	Note Tool	Σημείωση (Note Tool)
+	Object Selection Tool	Επιλογή αντικειμένου (Object Selection Tool)
+	Paint Bucket Tool	Κουβάς γεμίσματος (Paint Bucket Tool)
+	Path Selection Tool	Επιλογή διαδρομής (Path Selection Tool)
+	Direct Selection Tool	Άμεση επιλογή (Direct Selection Tool)
+	Pen Tool	Πένα (Pen Tool)
+	Polygon Tool	Πολύγωνο (Polygon Tool)
+	Polygonal Lasso Tool	Πολυγωνικό λάσο (Polygonal Lasso Tool)
+	Quick Selection Tool	Γρήγορη επιλογή (Quick Selection Tool)
+	Rectangle Tool	Ορθογώνιο (Rectangle Tool)
+	Rectangular Marquee Tool	Ορθογώνια επιλογή (Rectangular Marquee Tool)
+	Sharpen Tool	Όξυνση (Sharpen Tool)
+	Slice Select Tool	Επιλογή τομής (Slice Select Tool)
+	Slice Tool	Τομή (Slice Tool)
+	Smudge Tool	Μουντζούρωμα (Smudge Tool)
+	Sponge Tool	Σφουγγάρι (Sponge Tool)
+	Spot Healing Brush Tool	Πινέλο τοπικής επιδιόρθωσης (Spot Healing Brush Tool)
+	Triangle Tool	Τρίγωνο (Triangle Tool)
+	Zoom Tool	Μεγέθυνση (Zoom Tool)
+	Wand	Μαγικό ραβδί (Wand)
+	Clone Stamp	Σφραγίδα κλωνοποίησης (Clone Stamp)
+	Note tool	Σημείωση (Note tool)
+	Quick Selection	Γρήγορη επιλογή (Quick Selection)
+	Magnetic Lasso	Μαγνητικό λάσο (Magnetic Lasso)
+	History Brush	Πινέλο ιστορικού (History Brush)
+	Art History Brush	Πινέλο ιστορικού τέχνης (Art History Brush)
+	Pattern Stamp	Σφραγίδα μοτίβου (Pattern Stamp)
+	Spot Healing	Τοπική επιδιόρθωση (Spot Healing)
+	Content-Aware Move	Μετακίνηση βάσει περιεχομένου (Content-Aware Move)
+	Pencil Tool	Μολύβι (Pencil Tool)
+	Patch Tool	Επίθεμα επιδιόρθωσης (Patch Tool)
+	Content-Aware Move Tool	Μετακίνηση βάσει περιεχομένου (Content-Aware Move Tool)
+	Magnetic Lasso Tool	Μαγνητικό λάσο (Magnetic Lasso Tool)
+	Vertical Type Tool	Κατακόρυφο κείμενο (Vertical Type Tool)
+	Burn Tool	Σκοτείνιασμα (Burn Tool)
+	Current Tool	Τρέχον εργαλείο
+	Click the first point or press {key} to close · {del} removes a point · Esc cancels	Κάντε κλικ στο πρώτο σημείο ή πατήστε {key} για κλείσιμο · {del} αφαιρεί ένα σημείο · Esc για ακύρωση
+	Click, then move along an edge · click to fasten a point · {alt}-click for a straight segment · double-click to close	Κάντε κλικ και κινηθείτε κατά μήκος μιας ακμής · κάντε κλικ για να στερεώσετε ένα σημείο · {alt}-κλικ για ευθύγραμμο τμήμα · διπλό κλικ για κλείσιμο
