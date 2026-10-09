@@ -1,0 +1,52 @@
+name: PhotoCraft Greek macOS
+
+on:
+  push:
+    branches:
+      - greek-localization
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-macos:
+    name: Build Greek macOS Intel
+    runs-on: macos-15
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout PhotoCraft
+        uses: actions/checkout@v4
+
+      - name: Checkout embedded fonts
+        uses: actions/checkout@v4
+        with:
+          repository: storytold/craft-fonts
+          ref: abb83316d96aa59c1cf64784289e378fe9fa5695
+          path: craft-fonts
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-apple-darwin
+
+      - name: Rust cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Test Greek localization
+        run: cargo test -p photocraft-ui-egui --lib
+
+      - name: Build macOS DMG
+        env:
+          CRAFT_FONTS_DIR: ${{ github.workspace }}/craft-fonts
+          CRAFT_FONTS_REQUIRED: "1"
+          CARGO_INCREMENTAL: "0"
+        run: packaging/macos/package.sh --arch x86_64
+
+      - name: Upload finished installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: PhotoCraft-Greek-macOS-Intel
+          path: dist/release/*.dmg
+          if-no-files-found: error
