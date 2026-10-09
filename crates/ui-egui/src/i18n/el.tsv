@@ -3281,3 +3281,65 @@ cameraRaw	Yellow	Κίτρινο
 	{size} (was {old})	{size} (ήταν {old})
 	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
 	…and {n} more	…και {n} ακόμη
+	125%	125%
+	150%	150%
+	175%	175%
+	250%	250%
+	300%	300%
+	50% Gray	50% γκρι
+	75%	75%
+	Adobe	Adobe
+	Adobe rgb	Adobe RGB
+	Android 1080p	Android 1080p
+	Apple Watch 45mm	Apple Watch 45mm
+	Black Matte	Μαύρο ματ
+	Brush	Πινέλο
+	Color…	Χρώμα…
+	Cone (Inverted)	Κώνος (αντεστραμμένος)
+	Could not open	Δεν ήταν δυνατό το άνοιγμα
+	Default Photoshop Size	Προεπιλεγμένο μέγεθος Photoshop
+	Diagonal (Descending)	Διαγώνιος (φθίνουσα)
+	DirectX 12	DirectX 12
+	Display p3	Display P3
+	Divide	Διαίρεση
+	Domed	Θολωτό
+	Domed (Inverted)	Θολωτό (αντεστραμμένο)
+	Eraser	Γόμα
+	Fuchsia	Φούξια
+	Gif	GIF
+	Indigo	Λουλακί
+	Jpg	JPG
+	Lab	Lab
+	Lasso	Λάσο
+	Lorem Ipsum	Lorem Ipsum
+	Low resolution previews	Προεπισκοπήσεις χαμηλής ανάλυσης
+	Marquee	Επιλογή
+	Metal	Metal
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Η εγγενής μεταφορά και απόθεση αρχείων δεν υποστηρίζεται ακόμη στο Wayland. Χρησιμοποιήστε Αρχείο › Άνοιγμα ή αντιγράψτε την εικόνα στη διαχείριση αρχείων και επικολλήστε τη με {paste}.
+	OpenGL	OpenGL
+	PSD	PSD
+	Pattern Stamp Tool	Σφραγίδα μοτίβου (Pattern Stamp Tool)
+	Png	PNG
+	Pro	Pro
+	Pro medium	Pro μεσαίο
+	Pro photo	ProPhoto
+	Red Eye	Κόκκινα μάτια
+	Red Eye Tool	Κόκκινα μάτια (Red Eye Tool)
+	Seafoam	Θαλασσί
+	Srgb	sRGB
+	To drop files, start PhotoCraft under XWayland: `{command}`	Για να αποθέσετε αρχεία, εκκινήστε το PhotoCraft μέσω XWayland: `{command}`
+	Vulkan	Vulkan
+	WebP (lossless)	WebP (χωρίς απώλειες)
+	Webp	WebP
+	White Matte	Λευκό ματ
+	{path}: the path is not valid Unicode; rename the file and open it again.	{path}: η διαδρομή δεν είναι έγκυρο Unicode· μετονομάστε το αρχείο και ανοίξτε το ξανά.
+fontWeight	Black	Πολύ έντονα
+fontWeight	Bold	Έντονα
+fontWeight	ExtraBold	Υπερέντονα
+fontWeight	ExtraLight	Υπερλεπτά
+fontWeight	Italic	Πλάγια
+fontWeight	Light	Λεπτά
+fontWeight	Medium	Μεσαία
+fontWeight	Regular	Κανονικά
+fontWeight	SemiBold	Ημιέντονα
+fontWeight	Thin	Πολύ λεπτά
